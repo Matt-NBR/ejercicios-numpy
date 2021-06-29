@@ -10,5 +10,10 @@
 #### 80: Obtener los n mayores valores de un arreglo
 ![image](https://user-images.githubusercontent.com/66144847/123868321-25575680-d8f5-11eb-837c-247b597d015c.png)
 
+#### 82: Crear un arreglo de records partiendo de un arreglo estructurado normal
+![image](https://user-images.githubusercontent.com/66144847/123877353-a79a4780-d902-11eb-967f-e860e5065f11.png)
+
+
+
 
 
