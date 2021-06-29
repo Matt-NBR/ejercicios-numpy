@@ -13,6 +13,9 @@
 #### 82: Crear un arreglo de records partiendo de un arreglo estructurado normal
 ![image](https://user-images.githubusercontent.com/66144847/123877353-a79a4780-d902-11eb-967f-e860e5065f11.png)
 
+#### 83: Considere un vector grande, eleve dicho vector al cubo utilizando 3 metodos diferentes
+![image](https://user-images.githubusercontent.com/66144847/123880316-04e4c780-d908-11eb-9077-160adee51a81.png)
+
 
 
 
