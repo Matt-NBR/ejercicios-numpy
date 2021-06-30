@@ -1,4 +1,6 @@
 import numpy as np
+
+
 #55 
 #Se crea un arreglo de 10 elementos donde todos son 1
 A = np.ones(10, dtype=int) 
