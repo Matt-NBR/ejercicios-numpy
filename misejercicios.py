@@ -8,7 +8,7 @@ Entrada = float(input("Ingrese numero "))
 # Se obtiene el valor absoluto de la diferencia de cada elemento del arreglo para obtener el valor mas cercano
 index = (np.abs(Arreglo-Entrada)).argmin()
 # Se imprimen el valor en la posición indicada por el index, que en este caso por ir en orden seria el mismo valor del index
-print(Arreglo[index], Arreglo, index)
+print("Numero mas cercano", Arreglo[index])
 
 # 43
 # Se crea una estructura con 3 filas y dos columnas completadas por unos, una columna de posiciones y otra de colores rgb
@@ -31,14 +31,18 @@ print(Lectura)
 # 49
 # Se crea un arreglo de dos dimensiones con 10 filas y 10 columnas
 Z = np.zeros((10, 10))
-# Se remplaza un valor del arreglo Z en la posicion 5 por un valor aletorio del rango hasta el 5
+# Se remplaza un valor del arreglo Z en la posicion aleatoria por un valor de 5
+print(Z)
 print(np.put(Z, np.arange(10), 5, 'wrap'))
+print(Z)
 
 
 # 51
 # Creación de una matriz con numeros randomicos del 0 al 10, la
 matriz1 = np.random.randint(0, 10, (3, 3))
 # Impresión de la matriz
+print("Sin ordenamiento")
 print(matriz1)
 # Ordenamiento de la matriz por valores de columna
+print("Con ordenamiento")
 print(matriz1[matriz1[:, 1].argsort()])
