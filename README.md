@@ -17,7 +17,7 @@
 ![resultado4](https://user-images.githubusercontent.com/66264779/123888833-f4d5e380-d919-11eb-937e-6e7d7bebc92d.png)
 
 ### 41: ¿Como se puede imprimir todos los valores de un arreglo?
-![resultado5](https://user-images.githubusercontent.com/66264779/123888839-f99a9780-d919-11eb-8d44-8718f365b439.png)
+![resultado5](https://user-images.githubusercontent.com/66264779/123888937-2353be80-d91a-11eb-97ef-7eaf0f40caa8.png)
 
 #### 55: Dado un vector, como se agrega 1 a cada elemento indexado por un segundo vector (tenga cuidado con los indices repetidos)
 ![image](https://user-images.githubusercontent.com/66144847/123864535-7e70bb80-d8f0-11eb-8ec2-ea4e94695b20.png)
