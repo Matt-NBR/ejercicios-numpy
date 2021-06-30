@@ -16,6 +16,8 @@
 #### 83: Considere un vector grande, eleve dicho vector al cubo utilizando 3 metodos diferentes
 ![image](https://user-images.githubusercontent.com/66144847/123880483-60af5080-d908-11eb-89f1-2e7c0a5ed8bd.png)
 
+#### 85: Considere una matriz de 10x3, extraiga las filas que no sean iguales
+![image](https://user-images.githubusercontent.com/66144847/123885092-4c705100-d912-11eb-9b1f-ec8b581e111c.png)
 
 
 
