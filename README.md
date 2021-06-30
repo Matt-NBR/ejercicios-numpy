@@ -19,6 +19,21 @@
 ### 41: ¿Como se puede imprimir todos los valores de un arreglo?
 ![resultado5](https://user-images.githubusercontent.com/66264779/123888937-2353be80-d91a-11eb-97ef-7eaf0f40caa8.png)
 
+### 42: Dado un numero buscar el valor mas cercano en un arreglo
+![image](https://user-images.githubusercontent.com/58042139/123896817-ea224b00-d927-11eb-9173-844264da3995.png)
+
+### 43: Estructura de posiciones x, y y estructura de colores r,g,b completados con unos
+![image](https://user-images.githubusercontent.com/58042139/123897112-7d5b8080-d928-11eb-9b58-d77c9056c02d.png)
+
+### 46: Lectura de un archivo con valores vacios
+![image](https://user-images.githubusercontent.com/58042139/123897276-ba277780-d928-11eb-815f-6951e996874d.png)
+
+### 49: Cambio de valores en un arreglo de 10x10 en los elementos de la primera fila
+![image](https://user-images.githubusercontent.com/58042139/123897784-a8929f80-d929-11eb-8c58-20927a47bb2d.png)
+
+### 51: Ordenamiento de matriz por columnas
+![image](https://user-images.githubusercontent.com/58042139/123897906-e55e9680-d929-11eb-8e70-26ec7f9edc05.png)
+
 #### 55: Dado un vector, como se agrega 1 a cada elemento indexado por un segundo vector (tenga cuidado con los indices repetidos)
 ![image](https://user-images.githubusercontent.com/66144847/123864535-7e70bb80-d8f0-11eb-8ec2-ea4e94695b20.png)
 
