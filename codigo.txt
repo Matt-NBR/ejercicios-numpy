@@ -1,0 +1,62 @@
+import numpy as np
+#55 
+#Se crea un arreglo de 10 elementos donde todos son 1
+A = np.ones(10, dtype=int) 
+#Se crea un arreglo con 10 elementos aleatorios desde 1 hasta 10 (representado por la longitud de A)
+B = np.random.randint(1, len(A), 10) 
+#Se indexa cada elemento de B contando sus ocurrencias y a estos indices se les suma 1
+A += np.bincount(B, minlength=len(A))
+print("Vector dado: ")
+print(B)
+print("Numero de elementos indexados del vector dado sumados 1: ")
+print(A) 
+
+#80
+#Se crea un arreglo aleatorio de las dimensiones deseadas
+A = np.random.randint(1, 100, 20)
+#Se selecciona el numero de valores a mostrar
+n = 3
+#Se imprime el arreglo
+print(A)
+#Se imprime los n mayores valores del arreglo
+#Se uso argsort para ordenar de menor a mayor el arreglo
+#De este arreglo ordenado se eligio mostrar los n ultimos elementos
+print(A[np.argsort(A)[-n:]])
+
+#82
+#Se crea un arreglo estructurado
+A = np.array([("Python", 2.9, 1), ("Rocks", 4.6, 7)])
+#Se utiliza esta funcion para transformar un arreglo estructurado a un arreglo de records
+B = np.core.records.fromarrays(A.T, names='col1, col2, col3', formats = 'S8, f8, i8')
+#Un arreglo de records se diferencia en que se puede acceder a sus valores de forma individual o segun grupos de nombres
+#Tambien se puede acceder segun tipos de datos, pero en este ejemplo estos no estan definidos
+print(B[0])
+print(B.col1)
+print(B.col2[0])
+print(B.col3[1])
+
+#83
+#Se crea un arreglo de 1 millon de elementos aleatorios
+A = np.random.rand(1000000)
+#Se usa %timeit para medir cuanto tarda cada operacion
+#Potencia utilizando la funcion power
+print("tiempo con power()")
+%timeit np.power(A, 3)
+#Potencia utilizando multiplicacion simple
+print("tiempo multiplicando")
+%timeit A*A*A
+#Potencia multiplicando con einsum
+print("tiempo multiplicando con einsum")
+%timeit np.einsum('i,i,i->i',A,A,A)
+
+#85
+#Creando un arreglo aleatorio de 10x3
+A = np.random.randint(0,5,(10,3))
+#Identificando las filas con elementos iguales
+B = np.logical_and.reduce(A[:,1:] == A[:,:-1], axis=1)
+#Imprimiendo el arreglo menos las filas iguales
+C = A[~B]
+print("Arreglo original:")
+print(A)
+print("\nArreglo omitiendo filas con elementos iguales:")
+print(C)
